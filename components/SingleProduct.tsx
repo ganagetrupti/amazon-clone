@@ -10,7 +10,7 @@ const SingleProduct = ({ singleProduct }: { singleProduct: any }) => {
     
           {singleProduct.map((product: any) => {
             return (
-              <div className="flex">
+              <div key={product.id} className="flex">
                 <div className="flex">
                   <div className="bg-gray-100">
                     <Image
@@ -31,7 +31,7 @@ const SingleProduct = ({ singleProduct }: { singleProduct: any }) => {
                       <ol>
                         <li>
                           You can watch live footage and download journey videos
-                          on your Pro App by connecting to the Dashcam's WiFi
+                          on your Pro App by connecting to the Dashcams WiFi
                           Hotspot
                         </li>
                         <li>

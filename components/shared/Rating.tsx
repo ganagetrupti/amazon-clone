@@ -6,7 +6,7 @@ const Ratings = ({ratings}:{ratings:any}) => {
   return (
     <div className='flex items-center'>
         {
-            Array(4).fill(1).map((dummyItem) => <Image src={rating} alt="rating" width={20} height={20}/>)
+            Array(4).fill(1).map((dummyItem, idx) => <Image key={idx} src={rating} alt="rating" width={20} height={20}/>)
         }
             <h1 className='text-[#007185] ml-2 font-medium'>{ratings.count} ratings</h1>
         
