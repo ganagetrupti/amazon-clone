@@ -4,7 +4,7 @@ import Script from 'next/script';
 import { supabase } from '@/lib/supabase/products';
 import { useAppSelector } from '@/lib/hooks/redux';
 import { getCart } from '@/redux/cartSlice';
-import items from 'razorpay/dist/types/items';
+
 
 declare global{
     interface Window{

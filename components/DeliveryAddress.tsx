@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
-import amazonLogo from '../public/amazon-logo.png'
+
 
 import { useAppSelector } from "@/lib/hooks/redux";
 import { getCart } from "@/redux/cartSlice";

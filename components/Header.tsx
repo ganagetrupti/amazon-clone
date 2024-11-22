@@ -106,7 +106,7 @@ const Header = () => {
         </div>
         <div className="mr-5">
         <h1 onClick={async()=>{
-          const {error} = await supabase.auth.signOut();
+          const error = await supabase.auth.signOut();
           router.push("/signin")
         }} className="text-[#FEBD69] font-bold cursor-pointer hover:underline">Sign Out</h1>
         </div>   

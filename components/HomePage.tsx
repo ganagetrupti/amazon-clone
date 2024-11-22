@@ -3,7 +3,7 @@ import { useSupabase } from '@/lib/hooks/useSupabase'
 import Image from 'next/image'
 import React, { useEffect } from 'react'
 import CategoryWiseProduct from './shared/CategoryWiseProduct'
-import Link from 'next/link'
+
 
 const HomePage = () => {
   const { mensProduct,
