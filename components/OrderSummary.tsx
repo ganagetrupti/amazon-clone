@@ -52,7 +52,7 @@ const OrderSummary = ({totalPrice}:{totalPrice:any}) => {
          console.error('There was a problem with your fetch operation:', error);
         }
        };
-       console.log(createOrderId);
+     
        const processPayment = async () => {
        
         // e.preventDefault();

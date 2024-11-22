@@ -41,7 +41,7 @@ const Header = () => {
       }
       getUserData(); 
     }, [])
-    console.log(user);
+
   return (
     <>
       <div className="bg-[#131921] text-white py-1">
