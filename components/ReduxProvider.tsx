@@ -2,7 +2,7 @@
 import { store } from "@/redux"
 import { Provider } from "react-redux"
 import { persistStore } from "redux-persist"
-//import AsyncStorage from '@react-native-community/async-storage';
+
 import { PersistGate } from 'redux-persist/integration/react'
 
 let persistor = persistStore(store)
