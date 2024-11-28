@@ -5,7 +5,7 @@ import DeliveryAddress from "./DeliveryAddress";
 import OrderSummary from "./OrderSummary";
 import Image from "next/image";
 import amazonLogo from '../public/amazon-logo.png'
-import { FaUnlock } from "react-icons/fa6";
+import { IoMdUnlock } from "react-icons/io";
 import { useAppSelector } from "@/lib/hooks/redux";
 import { getCart } from "@/redux/cartSlice";
 
@@ -33,7 +33,7 @@ const CheckOut = () => {
           <h1 className="font-bold text-2xl">CheckOut</h1>
         </div>
         <div className="text-gray-400">
-          <FaUnlock size={"30px"} />
+          <IoMdUnlock  size={"30px"} />
         </div>
       </div>
       <div className="flex justify-between w-[70%] mx-auto">

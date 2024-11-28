@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { PiShoppingCartBold } from "react-icons/pi";
+import { MdOutlineShoppingCart } from "react-icons/md";
 import { IoMdSearch } from "react-icons/io";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -84,7 +84,7 @@ const Header = () => {
               <p className="relative top-3 left-5">{cart.length}</p>
               <div className="flex">
                 <div className="cursor-pointer">
-                  <PiShoppingCartBold size={"40px"} />
+                <MdOutlineShoppingCart  size={"40px"} />
                 </div>
                 <h1 className="mt-4">cart</h1>
               </div>
